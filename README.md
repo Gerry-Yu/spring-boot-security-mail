@@ -72,6 +72,22 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
 
 ## Email
 
+### jar包
+
+``` xml
+    <!--mail-->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-mail</artifactId>
+    </dependency>
+
+    <!--thymeleaf-->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-thymeleaf</artifactId>
+    </dependency>
+```
+
 ### application.properties
 
 > 可以在application.properties目录配置Email的相关信息，下面是最简单的配置。
